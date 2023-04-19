@@ -1,5 +1,5 @@
-# MedBioinfo 2022 Applied Bioinformatics
-## Shared git repo for re-analysis
+# MedBioinfo 2023 Applied Bioinformatics
+## repo for re-analysis
 
 ### Data source
 
