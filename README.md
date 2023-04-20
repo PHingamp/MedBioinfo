@@ -5,7 +5,10 @@
 
 Data is from Daniel Castañeda-Mogollón et al. Dec 2021 https://www.sciencedirect.com/science/article/pii/S1386653221002924
 
-Samples (either Nasopharyngeal or Throat swabs) from 125 patients, either COVID+ or COVID- by RT-PCR, were subjected to Illumina sequencing (one RNA and one DNA sequencing run for each patient).
+Samples (either Nasopharyngeal or Throat swabs) are from 125 patients, either COVID+ or COVID- by RT-PCR, were subjected to Illumina sequencing (one RNA and one DNA sequencing run for each patient).
+
+Aknowledgment: kudos to the authors for providing all the required data to reproduce the analysis, both as online supplementary material to the published paper, as raw sequence data submissions to 
+open international archives, and as as prompt replies to email queries. 
 
 ### Aim of the re-analysis
 
@@ -25,7 +28,9 @@ Each course participant is in charge of a subset of the 250 total samples sequen
  - ```scripts``` will contain any scripts used in the analysis workflow (eg  Jupyter notebooks, SLURM bash scripts)
  - ```analyses``` will contain results of the analyses, such as transformed datasets, output files, and figures
  
-Because of their large size, the original raw FASTQ sequence files will be excluded from git tracking via the .gitignore file. This is reproducible-friendly because these FASTQ raw files will be considered strictly read only, and therefore can be re-instanciated simply by executing the download commands that will be documented in the scripts & notebooks.
+Because of their large size, the original raw FASTQ sequence files will be excluded from git tracking via the .gitignore file. 
+This is reproducible-friendly because these FASTQ raw files will be considered strictly read only, and therefore can be re-instanciated 
+simply by executing the download commands that will be documented in the scripts & notebooks.
  
 ### Initial data
  - the NCBI raw sample metadata annotation file (downloaded from [NCBI SRA](https://trace.ncbi.nlm.nih.gov/Traces/study/?acc=PRJEB47870)) is in ```data/SraRunTable.csv```
